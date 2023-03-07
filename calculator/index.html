@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Calculator</h1>
+	<div id="calculator">
+		<div>
+			<input type="text" id="result" readonly>
+		</div>
+		<div>
+			<button class="button" onclick="clearInput()">C</button>
+			<button class="button" onclick="addToInput('(')">(</button>
+			<button class="button" onclick="addToInput(')')">)</button>
+			<button class="button" onclick="addToInput('/')">÷</button>
+		</div>
+		<div>
+			<button class="button" onclick="addToInput('7')">7</button>
+			<button class="button" onclick="addToInput('8')">8</button>
+			<button class="button" onclick="addToInput('9')">9</button>
+			<button class="button" onclick="addToInput('*')">×</button>
+		</div>
+		<div>
+			<button class="button" onclick="addToInput('4')">4</button>
+			<button class="button" onclick="addToInput('5')">5</button>
+			<button class="button" onclick="addToInput('6')">6</button>
+			<button class="button" onclick="addToInput('-')">-</button>
+		</div>
+		<div>
+			<button class="button" onclick="addToInput('1')">1</button>
+			<button class="button" onclick="addToInput('2')">2</button>
+			<button class="button" onclick="addToInput('3')">3</button>
+			<button class="button" onclick="addToInput('+')">+</button>
+		</div>
+		<div>
+			<button class="button" onclick="addToInput('0')">0</button>
+            <button class="button" onclick="addToInput('.')">.</button>
+            <button class="button clear" onclick="calculate()">=</button>
+            </div>
+            </div>
+			<div>
+				<footer>
+					<center> <h4>Simardeep Sing</h4> </center>
+				</footer>
+			</div>
+			<script src="app.js"></script>
+            
+</body>
+</html>            
